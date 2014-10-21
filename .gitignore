@@ -7,7 +7,9 @@ src/malibucoind
 *.bat
 *.rej
 *.orig
+*.a
 *.o
+*.so
 *.patch
 *.Debug
 *.Release
