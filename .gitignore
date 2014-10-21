@@ -1,0 +1,28 @@
+release/*.exe
+debug/*.exe
+src/malibucoind
+.*.swp
+*.*~*
+*.bak
+*.bat
+*.rej
+*.orig
+*.o
+*.patch
+*.Debug
+*.Release
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+malibucoin-qt
+MalibuCoin-Qt.app
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
